@@ -35,6 +35,15 @@ export const projects = [
     visit: 'https://flourishing-dodol-d12c3b.netlify.app/',
     id: 3,
   },
+  {
+    title: 'MediaHub online cinema',
+    description: "Website development for an online cinema.",
+    image: '/images/kino.jpg',
+    tags: ['JavaScript', 'React', 'HTML', 'CSS'],
+    source: 'https://gitlab.com/llirikk/mediahub/-/tree/master',
+    visit: 'https://mediahub.surge.sh',
+    id: 3,
+  },
   // {
   //   title: 'Lenovo SNAPit',
   //   description: "Lenovo SNAPit Camera was one of the finest OEM camera apps back in those days. It had tonnes of unique and amazing features. I ported it to work on almost all devices at that time.",

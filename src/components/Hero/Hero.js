@@ -12,7 +12,7 @@ const Hero = (props) => (
           Hey there,
         </SectionTitle>
         <SectionText>
-          This is Kirill Pavlyashik aka Kipol. I am an Web developer.
+          This is Kirill Pavlyashik. I am an Web developer.
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
