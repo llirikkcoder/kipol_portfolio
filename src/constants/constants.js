@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: "Kipol's audio-visual promo website",
-    description: "This was my personal portfolio website that has all my audio-visual experience.",
+    description: "This is my personal portfolio site, which contains all my audiovisual experience.",
     image: '/images/portfolio.jpg',
     tags: ['JavaScript', 'React', 'HTML', 'CSS'],
     source: 'https://gitlab.com/llirikk/kipol_site',
@@ -42,7 +42,16 @@ export const projects = [
     tags: ['JavaScript', 'React', 'HTML', 'CSS'],
     source: 'https://gitlab.com/llirikk/mediahub/-/tree/master',
     visit: 'https://mediahub.surge.sh',
-    id: 3,
+    id: 4,
+  },
+  {
+    title: 'Museum website',
+    description: "Prototype of the website of the Museum and Exhibition Center of the Automobile Club of the Federal Security Service of the Russian Federation.",
+    image: '/images/museum.jpg',
+    tags: ['JavaScript', 'React', 'HTML', 'CSS'],
+    source: 'https://gitlab.com/llirikk/amk-fso_kpl',
+    visit: 'https://amk_fso_kpl.surge.sh/',
+    id: 5,
   },
   // {
   //   title: 'Lenovo SNAPit',
