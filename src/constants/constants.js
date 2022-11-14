@@ -36,7 +36,7 @@ export const projects = [
     id: 3,
   },
   {
-    title: 'MediaHub online cinema',
+    title: 'MediaHub',
     description: "Website development for an online cinema.",
     image: '/images/kino.jpg',
     tags: ['JavaScript', 'React', 'HTML', 'CSS'],
