@@ -1,21 +1,35 @@
-import Link from 'next/link';
-import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import Link from "next/link";
+import React from "react";
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillTwitterCircle,
+} from "react-icons/ai";
+import {
+  Container,
+  Div1,
+  Div2,
+  Div3,
+  NavLink,
+  SocialIcons,
+} from "./HeaderStyles";
 
 const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-          <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >Kirill Pavlyashik</span>
+        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
+          <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }}>
+            Kirill Pavlyashik
+          </span>
         </a>
       </Link>
     </Div1>
     <Div2>
-      <li>
+      <li style={{ paddingRight: "2.5em" }}>
         <Link href="#projects">
-          <NavLink>Projects</NavLink>
+          <NavLink>Projects </NavLink>
         </Link>
       </li>
       <li>

@@ -6,8 +6,8 @@ export const Skills = [
   {
     slug: "react",
     Component: DiReact,
-    title: "React",
-    Description: () => <>I work on Web Apps using React.</>,
+    title: "React / Redux",
+    Description: () => <>I work on Web Apps using React and Redux.</>,
   },
   // {
   //   slug: "flutter",
@@ -25,7 +25,9 @@ export const Skills = [
     slug: "terminal",
     Component: DiTerminal,
     title: "Scripting",
-    Description: () => <>I have written dozens of Shell scripts for various purposes.</>,
+    Description: () => (
+      <>I have written dozens of Shell scripts for various purposes.</>
+    ),
   },
   // {
   //   slug: "firebase",
@@ -37,6 +39,8 @@ export const Skills = [
     slug: "git",
     Component: SiGit,
     title: "Git",
-    Description: () => <>Git is a tool that I use every day. I use GitHub for pushing my code.</>,
+    Description: () => (
+      <>Git is a tool that I use every day. I use GitHub for pushing my code.</>
+    ),
   },
 ];
